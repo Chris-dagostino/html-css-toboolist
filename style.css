@@ -1,6 +1,6 @@
 .contenitor {
     background-color: rgb(255, 255, 255);
-    weight: 100%;
+    width: 100%;
     margin: auto;
 }
 
@@ -18,10 +18,34 @@
 
 .sfondo-main {
     background-color: lightgrey;
-    weight: 100%;
+    width: 100%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 10px;
 }
 
 .sfondo-button {
     background-color: rgb(255, 255, 255);
-    weight: 80&
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.button1 {
+    background-color: lightseagreen;
+    border-radius: 2px;
+}
+
+.sfondo-lista {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+
+.selezione::before {
+    content: '\25BC';
 }
