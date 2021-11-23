@@ -64,12 +64,24 @@
     content: '\23F7';
 }
 
-.circle-blue {
+.circle {
     display: inline-block;
-    width: 20px;
+    width: 80px;
     height: 20px;
-    background-color: blue;
     text-align: center;
     vertical-align: middle;
-    border-radius: 2px;
+    border-radius: 50px;
+    color: rgb(255, 255, 255)
+}
+
+.circle-blue {
+    background-color: blue;
+}
+
+.circle-violet {
+    background-color: magenta;
+}
+
+.circle-green {
+    background-color: greenyellow;
 }
