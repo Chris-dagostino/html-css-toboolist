@@ -115,9 +115,10 @@
     text-align: center;
     vertical-align: middle;
     border-radius: 20px;
-    padding:5px 8px;
+    padding:1px 4px;
     background-color: rgb(255, 255, 255);
     border:1px solid red;
+    margin:4px 4px;
 
 }
 
@@ -127,10 +128,12 @@
     display: inline-block;
     text-align: center;
     vertical-align: middle;
-    padding:5px 8px;
+    padding:1px 4px;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
-    border:1px solid rgb(0, 122, 131)
+    border:1px solid rgb(0, 122, 131);
+    margin:4px 4px;
+    
 }
 
 ul {
