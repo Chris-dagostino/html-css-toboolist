@@ -1,8 +1,16 @@
+* {
+   padding:0;
+   margin: 0;
+   box-sizing: border-box; 
+}
+
 .contenitor {
     background-color: rgb(255, 255, 255);
     width: 100%;
     margin: auto;
 }
+
+
 
 .logo {
     height: 50px;
@@ -24,9 +32,14 @@
     padding-bottom: 10px;
 }
 
+.toboo {
+    margin: 0 auto;
+    width: 80%;
+}
+
 .sfondo-button {
     background-color: rgb(255, 255, 255);
-    width: 80%;
+    width: 100%;
     padding-top: 10px;
     padding-bottom: 5px;
     border-top-left-radius: 5px;
@@ -40,12 +53,23 @@
 
 .sfondo-lista {
     background-color: rgb(255, 255, 255);
-    width: 80%;
+    width: 100%;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    margin-top: 5px;
     
 }
 
 .selezione::before {
-    content: '\25BC';
+    content: '\23F7';
+}
+
+.circle-blue {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 2px;
 }
